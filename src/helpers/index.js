@@ -28,7 +28,7 @@ const calcolareTotaleDaPagare = (quantita, rate) => {
 
     if(rate === 6) {
         totale *= 1.1;
-    }else if(rate ===12){
+    }else if(rate === 12){
         totale *= 1.2;
     }else { 
         totale *= 1,3;
